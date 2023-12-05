@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "poppins";
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding-top: 2vw;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+.sidebar1 {
+  width: 30%;
+
+  padding-left: 1.2vw;
+}
+
+.sidebar1 .logo {
+  margin: 0 0 20px 40px;
+  width: 252.5px;
+  height: 57.5px;
+}
+
+.menu {
+  width: 85%;
+  color: #757575;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu_items {
+  border-radius: 10px;
+  font-size: 1.3vw;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  padding: 20px 64px 20px 64px;
+  border: 2px solid rgba(133, 133, 133, 0.302);
+  gap: 12px;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+  align-items: center;
+  margin: 10px 0;
+}
+.menu_items:hover {
+  color: #fff;
+  background-color: #127b5a;
+}
+
+.ads{
+  margin: auto;
+  width: 75%;
+}
+
+.ads img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.logout {
+  width: 85%;
+  color: #ff5e5e;
+  border: 1px solid #ff5e5e;
+}
+
+.logout:hover {
+  color: #fff;
+  background-color: #ff5e5e;
+}
+.sidebar2 {
+  display: flex;
+  width: 38%;
+  flex-direction: column;
+}
+.top1 {
+  font-weight: 400;
+  font-size: 1.5vw;
+  color: #413e3e;
+}
+
+.middle img{
+  width: 100%;
+  height: 300px;
+  margin: 3vw 0;
+
+}
+
+.discover{
+  color: #127b5a;
+  font-size: 1.5vw;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 42vw;
+  margin: 2vw 0;
+}
+
+.card{
+  display: flex;
+  gap: 3vw;
+  /* height: 5vw; */
+  /* border: 1px solid black; */
+}
+
+.card_left{
+  width: fit-content;
+  height: inherit;
+}
+
+.card_right{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  height: 100%;
+}
+
+.card_right p{
+  color: #757575;
+}
+
+.sidebar3{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2vw;
+}
+
+.searchbar{
+  display: flex;
+}
+
+.searchbar input{
+  border-radius: 10px;
+  width: 85%;
+  text-align: center;
+  padding: 1vw 2vw;
+  background-color: rgba(133, 133, 133, 0.202);
+}
+
+.calender{
+  color: #127b5a;
+  margin-top: 1.7vw;
+  font-size: 1.5vw;
+}
+
+.calender img{
+  width: 80%;
+  margin-top: 1.2vw;
+  margin-left: -.5vw;
+}
+
+.blog{
+  width: 80%;
+}
+
+.title{
+  color: #127b5a;
+  font-size: 1.32vw;
+  margin-top: 1.3vw;
+}
